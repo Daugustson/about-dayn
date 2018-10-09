@@ -1,7 +1,6 @@
 /* || General setup */
 
 html, body {
-
 	margin: 0;
 	padding: 0;
 }
@@ -11,7 +10,7 @@ html {
 	background-color: orange;
 }
 
-body {width: 70%;
+body {width: 80%;
 	min-width: 800px;
 	margin: 0 auto;
 	text-align: center;
@@ -29,3 +28,19 @@ h1 {
 	color: magenta;
 }
 
+img:hover {
+	transform: scale(1.2) rotate(1turn);
+	transition: .5s;
+}
+
+.radial {
+	background: repeating-radial-gradient(
+		circle,
+		black,
+		black 15px,
+		white 15px,
+		white 30px
+	);
+	color: red;
+	font-size: 20px;
+}

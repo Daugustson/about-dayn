@@ -6,11 +6,20 @@
 		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
-		<h1> ABOUT DAYN</h1>
+		<h1>ABOUT DAYN</h1>
 		<P>Bearded dragons are so cool, everyone should be like a bearded dragon!!!</P>
 		<img src="beardeddragon.JPG" alt="A Picture of coolness">
 		<p>Check out the cool beard!!!</p>
 
+		<script>
+			let img = document.querySelector('img');
+			let html = document.querySelector('html');
 
+			function radialStripes() {
+				html.classList.toggle("radial")
+			}
+
+			img.addEventListener('click', radialStripes);
+		</script>
 	</body>
 	</html>
